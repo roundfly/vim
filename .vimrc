@@ -42,6 +42,9 @@ if executable('~/Documents/Dev/sourcekit-lsp/.build/debug/sourcekit-lsp')
         \ })
 endif
 
+"" Uncomment the line bellow If you would like to disable auto completion popup
+"" let g:asyncomplete_auto_popup = 0
+
 "" Enables tab completion
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
